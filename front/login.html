@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="assets/css/bootstrap4.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="assets/js/jquery3_5_1.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap4.js"></script>
+	
+</head>
+<body>
+	<div class="container-fluid overflow-x-none">
+
+	<div class="row">
+		<div class="container-fluid login_container">
+			<div class="login_page_content">
+				  	<div style="text-align:center;margin-bottom:30px;">
+				  	<img src="assets/img/top-logo.png">
+				  	</div>
+				<div class="card" style="width: 580px;">
+				  <div class="card-body">
+				    <h5 class="card-title login_card_title text-purple">Login</h5>
+				    <h6 class="card-subtitle mb-2 text-muted login_card_subtitle">Enter your email address and password to login</h6>
+				    	<form action="#" name="login_form" method="POST" class="login_form">
+					    	<div class="col-md-12">
+								<div class="form-group login_form_group">
+								    <label for="email" class="form-label login_form_label">Email *</label>
+								    <input type="email" class="form-control" placeholder="Enter your email" id="email" aria-describedby="emailHelp">
+								</div>
+								<div class="form-group login_form_group">
+								    <label for="Password" class="form-label login_form_label password_label">Password<span class="float-right text-purple">Forgot Password?</span></label>
+								    <input type="password" class="form-control form_error loginpassword" placeholder="Enter your password" id="password">
+								    <p class="form_error_message">The password that you entered is incorrect</p>
+								</div>
+								<div class="form-group">
+									
+								</div>
+									<div class="input-group mb-3">
+									  <div class="input-group-prepend">
+									    <div class="input-group-text check_input_group_text">
+									<input type="checkbox" class="rememberme_check" aria-label="Checkbox for following text input">
+									    </div>
+									  </div>
+									    <label for="rememberme" class="form-label pt-3 rememberme_form_label">Remember Me</label>
+									  <!-- <input type="text" class="form-control" aria-label="Text input with checkbox"> -->
+									</div>
+								<input type="submit" class="form-control btn-purple" name="">
+								<p class="signup_in_login_option">Don't have an account? <span class="text-purple">Sign Up</span></p>
+							</div>
+						</form>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

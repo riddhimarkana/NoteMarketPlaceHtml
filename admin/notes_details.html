@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="assets/css/bootstrap4.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="assets/js/jquery3_5_1.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap4.js"></script>
+	  
+	
+	<!-- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap'); -->
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="row">
+				<div class="col-md-10 offset-md-1">
+						
+					<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white ">
+						<div class="container">
+						  	<a class="navbar-brand mr-auto" href="#">
+						  		<img src="assets/img/logo.png" class="websitelogo">
+						  	</a>
+						  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+						    	<span class="navbar-toggler-icon"></span>
+						  	</button>
+
+						  	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+						    	<ul class="navbar-nav ml-auto">
+						    	<!-- <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> -->
+						      		<li class="nav-item"><!-- active -->
+								        <a class="nav-link" href="#">Search Notes</a><!-- <span class="sr-only">(current)</span> -->
+								    </li>
+						      		<li class="nav-item">
+						        		<a class="nav-link" href="#">Sell your notes</a>
+						      		</li>
+									<li class="nav-item">
+						        		<a class="nav-link" href="#">Buyer Request</a>
+						      		</li>
+									<li class="nav-item">
+						        		<a class="nav-link" href="#">FAQ</a>
+						      		</li>
+									<li class="nav-item">
+						        		<a class="nav-link" href="#">Contact US</a>
+						      		</li>
+						      		<li class="nav-item">
+						        		<img class="profile_image" src="assets/img/profilepic.png">
+						      		</li>
+						      		<li class="nav-item">
+						        		<a class="nav-link btn-sm btn-purple  text-light px-4 ml-3 " href="#">Logout</a>
+						      		</li>
+						    	</ul>
+								<!-- <form class="form-inline my-2 my-lg-0">
+						      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+						      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						    </form> -->
+						  </div>
+						</div>
+					</nav>
+				</div>
+
+			</div>
+		</header>
+	</div>
+	<div class="container">
+	<main class="notes_details_main">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="note_details_title text-purple">Note Details</h1>
+			</div>
+			<div class="col-lg-7">
+				<div class="row">
+					<div class="col-md-5">
+						<img src="assets/img/book.jpg" class="note_details_book_image">
+					</div>
+					<div class="col-md-7">
+						<p class="note_details_book_title text-purple">Computer Science</p>
+						<p class="note_details_genere">Sciences</p>
+						<p class="note_details_book_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <button type="button" class="note_details_book_download_btn btn btn-purple" data-toggle="modal" data-target="#exampleModal">Download / $15</button>
+                        
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document" >
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"  >Thankyou for purchasing</h5>
+        
+      </div>
+      <div class="modal-body">
+        <h7>Dear Smith</h7>
+        <p>As this is paid notes, you need to pay to seller Rahil Shah offline. We will send hime an email that you want to download this note. he may contact you further for payment process completion <br>
+        <br>In case you have urgency <br> Please contact us on +91**********<br><br>
+        Once he recieves the paymentand acknowledge us,selected notes you can see over my downloads tab for download<br><br>Have a good day</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-5">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="note_details_others">Institution<span class="text-purple">Delhi University</span></div>
+						<div class="note_details_others">Country:<span class="text-purple">India</span></div>
+						<div class="note_details_others">Course Name:<span class="text-purple">Computer Engineering</span></div>
+						<div class="note_details_others">Course Code:<span class="text-purple">248705</span></div>
+						<div class="note_details_others">Professor:<span class="text-purple">Mr. Richard Brown</span></div>
+						<div class="note_details_others">Number of Pages:<span class="text-purple">277</span></div>
+						<div class="note_details_others">Approved Date:<span class="text-purple">November 20,2000</span></div>
+						<div class="note_details_others">Rating:
+							<span class="text-purple">
+								<span style="margin-left:10px">100 Reviews</span>
+								<span class="stars">
+	                			<input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label></span>
+	                		</span>
+	            		</div>
+					</div>
+	            	<div class="col-md-12">
+	            	<div class="note_details_inappropriate"><p>5 users marked this book as inappropriate.</p></div>
+                	</div>
+				</div>
+			</div>	
+			<div class="col-md-12">
+				<hr>
+				<div class="row" style="margin-top:60px;">
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-5">
+								<p class="font24_28 text-purple">Notes Preview</p>
+								<!-- 16:9 aspect ratio -->
+								<div class="embed-responsive embed-responsive-1by1 book_pdf">
+								  <iframe class="embed-responsive-item" src="assets/pdf/stories_to_tell_to_children_fi.pdf"></iframe>
+								</div>
+
+							</div>
+							<div class="col-md-7">
+
+								<p class="font24_28 text-purple">Customer Reviews</p>
+								<div class="card" style="width: 611px;">
+								  <div class="card-body">
+								    <div class="review">
+								    	<div class="row">
+									    	<div class="col-md-3">
+									    		<img src="assets/img/customer-1.png">
+									    	</div>
+									    	<div class="col-md-9">
+									    		
+									    		<div class="review_detail">
+											    	<h5>Richard Brown</h5>
+												    	<div class="stars">
+							                			<input class="star star-25" id="star-25" type="radio" name="star" /> <label class="star star-25" for="star-25"></label> <input class="star star-24" id="star-24" type="radio" name="star" /> <label class="star star-24" for="star-24"></label> <input class="star star-23" id="star-23" type="radio" name="star" /> <label class="star star-23" for="star-23"></label> <input class="star star-22" id="star-22" type="radio" name="star" /> <label class="star star-22" for="star-22"></label> <input class="star star-21" id="star-21" type="radio" name="star" /> <label class="star star-21" for="star-21"></label></div>
+											    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>	
+											    </div>
+									    	</div>
+								    	</div>
+								    </div>
+								    <hr>
+								   	<div class="review">
+								    	<div class="row">
+									    	<div class="col-md-3">
+									    		<img src="assets/img/customer-2.png">
+									    	</div>
+									    	<div class="col-md-9">
+									    		
+									    		<div class="review_detail">
+											    	<h5>Sara Passamore</h5>
+												    	<div class="stars">
+							                			<input class="star star-35" id="star-35" type="radio" name="star" /> <label class="star star-35" for="star-35"></label> <input class="star star-34" id="star-34" type="radio" name="star" /> <label class="star star-34" for="star-34"></label> <input class="star star-33" id="star-33" type="radio" name="star" /> <label class="star star-33" for="star-33"></label> <input class="star star-32" id="star-32" type="radio" name="star" /> <label class="star star-32" for="star-32"></label> <input class="star star-31" id="star-31" type="radio" name="star" /> <label class="star star-31" for="star-31"></label></div>
+											    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>	
+											    </div>
+									    	</div>
+								    	</div>
+								    </div>
+								    <hr>
+								   	<div class="review">
+								    	<div class="row">
+									    	<div class="col-md-3">
+									    		<img src="assets/img/customer-3.png">
+									    	</div>
+									    	<div class="col-md-9">
+									    		
+									    		<div class="review_detail">
+											    	<h5>Alice Ortiaz</h5>
+												    	<div class="stars">
+							                			<input class="star star-45" id="star-45" type="radio" name="star" /> <label class="star star-45" for="star-45"></label> <input class="star star-44" id="star-44" type="radio" name="star" /> <label class="star star-44" for="star-44"></label> <input class="star star-44" id="star-44" type="radio" name="star" /> <label class="star star-44" for="star-44"></label> <input class="star star-42" id="star-42" type="radio" name="star" /> <label class="star star-42" for="star-42"></label> <input class="star star-41" id="star-41" type="radio" name="star" /> <label class="star star-41" for="star-41"></label></div>
+											    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>	
+											    </div>
+									    	</div>
+								    	</div>
+								    </div>
+								   <!-- review end  -->
+								  </div>
+								</div>
+							</div>
+							<!-- end col-md-8 -->
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</main>
+	</div>
+	<div class="container-fluid footer_before" >
+	</div>
+	<div class="container">
+	<footer>
+		<!-- <div class="row"> -->
+			<!-- <div class="container-fluid"> -->
+				<div class="row">
+					<div class="col-md-6"><p class="copyright_text">Copyright &copy; Tatvasoft All rights reserved</p></div>	
+					<div class="col-md-6">
+						<div class="float-md-right float-sm-left">
+							<a href="#" class="socialmedia_footer btn-purple text-light p-1 px-2 "><i class="fa fa-facebook" aria-hidden="true"></i></a>
+							<a href="#" class="socialmedia_footer btn-purple text-light p-1 px-2 ml-2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+							<a href="#" class="socialmedia_footer btn-purple text-light p-1 px-2 ml-2"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</div>
+					</div>
+				<!-- </div>
+			</div> -->
+		</div>
+	</footer>
+	
+	
+	</div>
+</body>
+<script type="text/javascript">
+	
+</script>
+</html>

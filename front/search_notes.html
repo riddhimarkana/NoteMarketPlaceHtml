@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="assets/css/bootstrap4.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script src="assets/js/jquery3_5_1.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap4.js"></script>
+	  
+	
+	<!-- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap'); -->
+</head>
+<body>
+	<div class="container-fluid overflow-x-none">
+
+		<div class="container">
+			<header>
+				<div class="row">
+					<div class="col-md-10 offset-md-1">
+							
+						<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white ">
+							<div class="container">
+							  	<a class="navbar-brand mr-auto" href="#">
+							  		<img src="assets/img/logo.png" class="websitelogo">
+							  	</a>
+							  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							    	<span class="navbar-toggler-icon"></span>
+							  	</button>
+
+							  	<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+							    	<ul class="navbar-nav ml-auto">
+							    	<!-- <ul class="navbar-nav mr-auto mt-2 mt-lg-0"> -->
+							      		<li class="nav-item"><!-- active -->
+									        <a class="nav-link" href="#">Search Notes</a><!-- <span class="sr-only">(current)</span> -->
+									    </li>
+							      		<li class="nav-item">
+							        		<a class="nav-link" href="#">Sell your notes</a>
+							      		</li>
+										<li class="nav-item">
+							        		<a class="nav-link" href="#">Buyer Request</a>
+							      		</li>
+										<li class="nav-item">
+							        		<a class="nav-link" href="#">FAQ</a>
+							      		</li>
+										<li class="nav-item">
+							        		<a class="nav-link" href="#">Contact US</a>
+							      		</li>
+							      		<li class="nav-item">
+							        		<img class="profile_image" src="assets/img/profilepic.png">
+							      		</li>
+							      		<li class="nav-item">
+							        		<a class="nav-link btn-sm btn-purple  text-light px-4 ml-3 " href="#">Logout</a>
+							      		</li>
+							    	</ul>
+									<!-- <form class="form-inline my-2 my-lg-0">
+							      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+							      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+							    </form> -->
+							  </div>
+							</div>
+						</nav>
+					</div>
+
+				</div>
+			</header>
+		</div>
+		<div class="container-fluid">
+		<main>
+			<div class="row">
+				<div class="container-fluid">
+					<div class="row hero_title_section">
+						<div class="col-md-12">
+							<h1 class="hero_title">
+								Search Notes
+							</h1>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+
+						<div class="col-md-12"><h4 class="text-purple page_title font24_28">Search and Filter notes</h4></div>
+						<!-- <div class="col-md-6"><div class="float-md-right float-sm-start"><input type="search" class="mt-1 my-form-control" placeholder="search" name=""><input type="button" class="ml-1 text-light btn-purple table_search_btn py-1 px-3" name="" value="Search"></div></div> -->
+					</div>
+					<div class="row searchn_fields" >
+						<div class="col-md-12">
+							<div class="mb-4">
+							    <input type="text" class="form-control" placeholder="Search notes here..." >
+							  </div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="mb-4">
+							    <select class="form-control">
+							    	<option value="" selected="">Select Type</option>
+							    	<option value="">Fiction</option>
+							    	<option value="">Non Fiction</option>
+							    	<option value="">Horror</option>
+							    	<option value="">Humour</option>
+							    </select>
+							  </div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="mb-4">
+							    <select class="form-control">
+							    	<option value="" selected="">Select Category</option>
+							    	<option value="">Fiction</option>
+							    	<option value="">Non Fiction</option>
+							    	<option value="">Horror</option>
+							    	<option value="">Humour</option>
+							    </select>
+							  </div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="mb-4">
+								<select class="form-control">
+							    	<option value="" selected="">Select University</option>
+							    	<option value="">Fiction</option>
+							    	<option value="">Non Fiction</option>
+							    	<option value="">Horror</option>
+							    	<option value="">Humour</option>
+							    </select>
+							  </div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="mb-4">
+								<select class="form-control">
+							    	<option value="" selected="">Select Course</option>
+							    	<option value="">Fiction</option>
+							    	<option value="">Non Fiction</option>
+							    	<option value="">Horror</option>
+							    	<option value="">Humour</option>
+							    </select>						  </div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="mb-4">
+								<select class="form-control">
+							    	<option value="" selected="">Select Country</option>
+							    	<option value="">Fiction</option>
+							    	<option value="">Non Fiction</option>
+							    	<option value="">Horror</option>
+							    	<option value="">Humour</option>
+							    </select>
+							  </div>
+						</div>
+						<div class="col-md-2 col-sm-6">
+							<div class="mb-4">
+								<select class="form-control">
+							    	<option value="" selected="">Select Rating</option>
+							    	<option value="">Fiction</option>
+							    	<option value="">Non Fiction</option>
+							    	<option value="">Horror</option>
+							    	<option value="">Humour</option>
+							    </select>
+							  </div>
+						</div>
+						
+					</div>	
+
+					<div class="row">
+						<div class="col-md-12"><h4 class="text-purple page_title font24_28">Total 18 notes</h4></div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card searchn_book_card" style="width: 350px;">
+							  <img class="card-img-top searchn_card_img_top" src="assets/img/book1.jpg" alt="Card image cap">
+							  <div class="card-body">
+							    <p class="searchn_book_title">Computer Operationg System - paper Solution</p>
+							    <p class="searchn_book_detail"><i class="fa fa-university mr-3" aria-hidden="true"></i>University of California</p>
+							    <p class="searchn_book_detail"><i class="fa fa-file-text-o mr-3" aria-hidden="true"></i>201 Pages</p>
+							    <p class="searchn_book_detail"><i class="fa fa-calendar mr-3" aria-hidden="true"></i>Thu, Nov 26 2020</p>
+							    <p class="searchn_book_detail" style="font-size: 14px;"><i class="fa fa-flag-o mr-3" aria-hidden="true"></i><span class="text-danger">5 users marked this note as inappropriate</span></p>
+							    <p class="searchn_book_detail">
+							    	<span style="margin-left:10px">100 Reviews</span>
+									<span class="stars" style="float: left;">
+		                			<input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label></span>
+							    </p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card searchn_book_card" style="width: 350px;">
+							  <img class="card-img-top searchn_card_img_top" src="assets/img/book2.jpg" alt="Card image cap">
+							  <div class="card-body">
+							    <p class="searchn_book_title">Computer Operationg System - paper Solution</p>
+							    <p class="searchn_book_detail"><i class="fa fa-university mr-3" aria-hidden="true"></i>University of California</p>
+							    <p class="searchn_book_detail"><i class="fa fa-file-text-o mr-3" aria-hidden="true"></i>201 Pages</p>
+							    <p class="searchn_book_detail"><i class="fa fa-calendar mr-3" aria-hidden="true"></i>Thu, Nov 26 2020</p>
+							    <p class="searchn_book_detail" style="font-size: 14px;"><i class="fa fa-flag-o mr-3" aria-hidden="true"></i><span class="text-danger">5 users marked this note as inappropriate</span></p>
+							    <p class="searchn_book_detail">
+							    	<span style="margin-left:10px">100 Reviews</span>
+									<span class="stars" style="float: left;">
+		                			<input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label></span>
+							    </p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card searchn_book_card" style="width: 350px;">
+							  <img class="card-img-top searchn_card_img_top" src="assets/img/book3.jpg" alt="Card image cap">
+							  <div class="card-body">
+							    <p class="searchn_book_title">Computer Operationg System - paper Solution</p>
+							    <p class="searchn_book_detail"><i class="fa fa-university mr-3" aria-hidden="true"></i>University of California</p>
+							    <p class="searchn_book_detail"><i class="fa fa-file-text-o mr-3" aria-hidden="true"></i>201 Pages</p>
+							    <p class="searchn_book_detail"><i class="fa fa-calendar mr-3" aria-hidden="true"></i>Thu, Nov 26 2020</p>
+							    <p class="searchn_book_detail" style="font-size: 14px;"><i class="fa fa-flag-o mr-3" aria-hidden="true"></i><span class="text-danger">5 users marked this note as inappropriate</span></p>
+							    <p class="searchn_book_detail">
+							    	<span style="margin-left:10px">100 Reviews</span>
+									<span class="stars" style="float: left;">
+		                			<input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label></span>
+							    </p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card searchn_book_card" style="width: 350px;">
+							  <img class="card-img-top searchn_card_img_top" src="assets/img/book4.jpg" alt="Card image cap">
+							  <div class="card-body">
+							    <p class="searchn_book_title">Computer Operationg System - paper Solution</p>
+							    <p class="searchn_book_detail"><i class="fa fa-university mr-3" aria-hidden="true"></i>University of California</p>
+							    <p class="searchn_book_detail"><i class="fa fa-file-text-o mr-3" aria-hidden="true"></i>201 Pages</p>
+							    <p class="searchn_book_detail"><i class="fa fa-calendar mr-3" aria-hidden="true"></i>Thu, Nov 26 2020</p>
+							    <p class="searchn_book_detail" style="font-size: 14px;"><i class="fa fa-flag-o mr-3" aria-hidden="true"></i><span class="text-danger">5 users marked this note as inappropriate</span></p>
+							    <p class="searchn_book_detail">
+							    	<span style="margin-left:10px">100 Reviews</span>
+									<span class="stars" style="float: left;">
+		                			<input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label></span>
+							    </p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card searchn_book_card" style="width: 350px;">
+							  <img class="card-img-top searchn_card_img_top" src="assets/img/book5.jpg" alt="Card image cap">
+							  <div class="card-body">
+							    <p class="searchn_book_title">Computer Operationg System - paper Solution</p>
+							    <p class="searchn_book_detail"><i class="fa fa-university mr-3" aria-hidden="true"></i>University of California</p>
+							    <p class="searchn_book_detail"><i class="fa fa-file-text-o mr-3" aria-hidden="true"></i>201 Pages</p>
+							    <p class="searchn_book_detail"><i class="fa fa-calendar mr-3" aria-hidden="true"></i>Thu, Nov 26 2020</p>
+							    <p class="searchn_book_detail" style="font-size: 14px;"><i class="fa fa-flag-o mr-3" aria-hidden="true"></i><span class="text-danger">5 users marked this note as inappropriate</span></p>
+							    <p class="searchn_book_detail">
+							    	<span style="margin-left:10px">100 Reviews</span>
+									<span class="stars" style="float: left;">
+		                			<input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label></span>
+							    </p>
+							  </div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card searchn_book_card" style="width: 350px;">
+							  <img class="card-img-top searchn_card_img_top" src="assets/img/book6.jpg" alt="Card image cap">
+							  <div class="card-body">
+							    <p class="searchn_book_title">Computer Operationg System - paper Solution</p>
+							    <p class="searchn_book_detail"><i class="fa fa-university mr-3" aria-hidden="true"></i>University of California</p>
+							    <p class="searchn_book_detail"><i class="fa fa-file-text-o mr-3" aria-hidden="true"></i>201 Pages</p>
+							    <p class="searchn_book_detail"><i class="fa fa-calendar mr-3" aria-hidden="true"></i>Thu, Nov 26 2020</p>
+							    <p class="searchn_book_detail" style="font-size: 14px;"><i class="fa fa-flag-o mr-3" aria-hidden="true"></i><span class="text-danger">5 users marked this note as inappropriate</span></p>
+							    <p class="searchn_book_detail">
+							    	<span style="margin-left:10px">100 Reviews</span>
+									<span class="stars" style="float: left;">
+		                			<input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label></span>
+							    </p>
+							  </div>
+							</div>
+						</div>
+						
+
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+						<nav aria-label="Page navigation example">
+						  <ul class="pagination justify-content-center">
+						    <li class="page-item ">
+						      <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><</a>
+						    </li>
+						    <li class="page-item active each_pagination_links"><a class="page-link " href="#">1</a></li>
+						    <li class="page-item each_pagination_links"><a class="page-link" href="#">2</a></li>
+						    <li class="page-item each_pagination_links"><a class="page-link" href="#">3</a></li>
+						    <li class="page-item each_pagination_links">
+						      <a class="page-link" href="#">></a>
+						    </li>
+						  </ul>
+						</nav>
+						</div>
+					</div>
+
+					
+				</div>
+			</div>
+		</main>
+		</div>
+		<div class="container">
+		<footer>
+			<!-- <div class="row"> -->
+				<!-- <div class="container-fluid"> -->
+					<div class="row">
+						<div class="col-md-6"><p class="copyright_text">Copyright &copy; Tatvasoft All rights reserved</p></div>	
+						<div class="col-md-6">
+							<div class="float-md-right float-sm-left">
+								<a href="#" class="socialmedia_footer btn-purple text-light p-1 px-2 "><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#" class="socialmedia_footer btn-purple text-light p-1 px-2 ml-2"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#" class="socialmedia_footer btn-purple text-light p-1 px-2 ml-2"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+							</div>
+						</div>
+					<!-- </div>
+				</div> -->
+			</div>
+		</footer>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	
+</script>
+</html>

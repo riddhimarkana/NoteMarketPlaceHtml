@@ -1,0 +1,75 @@
+/*email verification*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{    
+    width: 100%;
+    
+}
+
+form{
+    width: 600px;
+    background-color: #ffffff;
+    border: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 340px;
+    
+    border-radius: 3px;
+    
+    
+}
+.emailv-logo{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-left: 30px;
+}
+h9{
+    font-family: 'Open Sans';
+    font-size: 26px;
+    margin: 0;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #6255a5;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+h3{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #333333;
+    text-align: left;
+    margin-left: 30px;
+}
+.emailv-box-content p{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+    line-height: 20px;
+    font-weight: 600 ;
+    color: #333333;
+    text-align: left;
+    margin-left: 30px;
+}
+
+button[type="submit"]{
+    color: #fff;
+    width: 540px;
+    height: 50px;border-radius: 3px;
+    background-color: #6255a5;
+    font-family: 'Open sans',sans-serif;
+    font-style: 600;
+    line-height: 22px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
